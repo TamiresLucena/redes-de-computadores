@@ -1,0 +1,13 @@
+$TTL	10
+@	IN	SOA	dnstld.tld.	admin.dnstld.tld. (
+	3
+	30
+	15
+	10
+	0
+)
+
+@	IN	NS	dnstld.tld.
+dnstld	IN	A	200.0.0.2
+auto	IN	NS	dnsauto.auto.tld.
+dnsauto.auto	IN	A	200.1.1.3

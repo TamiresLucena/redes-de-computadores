@@ -1,0 +1,13 @@
+$TTL	10
+@	IN	SOA	ROOT-SERVER.	root.ROOT-SERVER. (
+	1
+	30
+	15
+	10
+	0
+)
+@		IN	NS	ROOT-SERVER.
+ROOT-SERVER.	IN	A	200.4.4.2
+
+tld		IN	NS	dnstld.tld.
+dnstld.tld		IN	A	200.0.0.2
